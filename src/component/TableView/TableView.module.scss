@@ -1,0 +1,28 @@
+.table_view {
+	flex: 0 0 50%;
+	display: flex;
+	overflow: auto;
+	position: relative;
+	&__container {
+		padding: 20px 30px;
+		overflow: auto;
+		max-height: 98%;
+	}
+	&__controll {
+		display: flex;
+	}
+	&__content {
+		display: flex;
+		flex-direction: column;
+		overflow: auto;
+		padding: 1px;
+		max-height: 70%;
+		margin-top: 20px;
+	}
+	&__scroll {
+	}
+	&__info {
+		position: absolute;
+		bottom: 1%;
+	}
+}

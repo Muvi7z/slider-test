@@ -1,0 +1,20 @@
+.table_modal {
+	display: flex;
+	flex-direction: column;
+	
+	&__form {
+		display: grid;
+		gap: 20px;
+	}
+	&__controll {
+		margin-top: 40px;
+		display: flex;
+		justify-content: space-between;
+		button {
+			margin-right: 30px;
+		}
+		button:last-child {
+			margin-right: 0px;
+		}
+	}
+}

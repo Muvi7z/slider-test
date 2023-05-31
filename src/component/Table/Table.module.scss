@@ -1,0 +1,19 @@
+.table {
+	overflow: auto;
+	font-size: 16px;
+	border: 1px solid #eee;
+	border-collapse: collapse;
+	&__row {
+	}
+	&__header {
+		border: 1px solid #dddddd;
+		padding: 5px;
+		text-align: start;
+		white-space: nowrap;
+	}
+	&__cell {
+		border: 1px solid #dddddd;
+		padding: 5px;
+		white-space: nowrap;
+	}
+}
